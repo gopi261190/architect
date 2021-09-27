@@ -1,0 +1,304 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #212121;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4% 1%;
+}
+
+.container {
+    width: 100%;
+}
+
+.navigation {
+    width: 100%;
+    padding: 10px 10px;
+}
+
+ul {
+    padding-top: 13px;
+}
+
+.navigation li {
+    list-style: none;
+    color: #d3d3d3;
+    font-size: 1rem;
+    font-weight: 100;
+    padding-left: 20px;
+}
+
+.toggle {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin: 10px 5px 0px 0px;
+}
+
+.toggle .bar {
+    font-size: 35px;
+    color: #d3d3d3;
+    ;
+}
+
+.devide {
+    padding: 0px 20px 0px 10px;
+    font-weight: 100;
+    color: #5e5c5c;
+}
+
+.main-banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../image/banner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    width: 100%;
+    padding-top: 22%;
+}
+
+.banner h1 {
+    background-color: #212121;
+    display: inline;
+    padding: 5px 17px;
+    font-size: 2.7rem;
+    letter-spacing: 4px;
+    line-height: 75px;
+    font-weight: 100;
+    color: #FFF;
+}
+
+/* four-section */
+
+.four-text h1 {
+    color: #d3d3d3;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.four-image-box {
+    width: 100%;
+    padding: 20px 0px;
+    color: #d3d3d3;
+}
+
+.four-box {
+    width: 23%;
+}
+
+.four-box h3 {
+    font-weight: 100;
+    color: #f4c545;
+    font-size: 1.3rem;
+    padding-top: 15px;
+}
+
+.four-box h4 {
+    font-weight: 100;
+}
+
+.build {
+    width: 100%;
+    height: 270px;
+}
+
+.aero {
+    color: #f4c545;
+    font-size: 2rem;
+}
+
+.four-box p {
+    font-weight: 100;
+    font-size: .9rem;
+    padding: 15px 0px 5px 0px;
+    line-height: 20px;
+}
+
+.full-image {
+    width: 100%;
+    height: 40vh;
+    background-image: url("../image/b3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.full-img {
+    width: 100%;
+}
+
+.three-box {
+    width: 31%;
+    color: #d3d3d3;
+}
+
+.three-box h1 {
+    font-size: 2.4rem;
+    font-weight: 100;
+}
+
+.three-box p {
+    font-weight: 100;
+    font-size: .9rem;
+    padding: 15px 0px 30px 0px;
+    line-height: 20px;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    color: #f4c545;
+    border: 2px solid #f4c545;
+    background-color: transparent;
+}
+
+.hrf {
+    width: 100%;
+    height: 1px;
+    margin: 7% 0% -2% 0%;
+    border: none;
+    background-color: #333232;
+}
+
+.two-box {
+    width: 49%;
+    color: #d3d3d3;
+}
+
+.two-box h1 {
+    font-size: 2.4rem;
+    font-weight: 100;
+}
+
+.two-box p {
+    font-weight: 100;
+    font-size: .9rem;
+    padding: 15px 0px 20px 0px;
+    line-height: 20px;
+}
+
+.two-box h4 {
+    font-weight: 100;
+    color: #f4c545;
+}
+
+.sq {
+    padding-top: 10px;
+    font-size: .8rem;
+    padding: 0px 3px;
+    color: #f4c545;
+}
+
+.footer {
+    color: #d3d3d3;
+    padding: 2% 1%;
+}
+
+.footer h3 {
+    font-weight: 100;
+    margin-top: -25px;
+}
+
+.footer p {
+    font-size: .9rem;
+    margin-top: -10px;
+}
+
+.big {
+    font-size: 1.2rem;
+    padding-left: 10px;
+    color: #f4c545;
+}
+
+.social {
+    padding: 10px;
+    border: 2px solid #333232;
+    margin: -25px 8px 0px 0px;
+}
+
+.social1 {
+    padding: 10px 13px;
+}
+
+@media only screen and (max-width:991px) {
+    .four-box {
+        width: 48%;
+        padding-top: 50px;
+    }
+    .three-box {
+        width: 48%;
+        padding-top: 50px;
+    }
+    .safty {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .navigation ul {
+        display: none;
+        position: absolute;
+        top: 50px;
+        padding-left: 0;
+    }
+    .navigation li {
+        color: black;
+        padding-left: 0;
+    }
+    .toggle {
+        display: block;
+    }
+    .four-box {
+        width: 85%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .three-box, .four-text, .banner {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .two-box {
+        width: 85%;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    .f-left {
+        width: 85%;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+    .banner {
+        padding-top: 40%;
+    }
+}
